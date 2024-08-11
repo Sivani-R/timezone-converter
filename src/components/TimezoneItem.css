@@ -1,0 +1,23 @@
+.timezone-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.timezone-item button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.timezone-item button:hover {
+    background-color: #ff1c1c;
+}
